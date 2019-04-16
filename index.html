@@ -5,13 +5,47 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Document</title>
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
+<style>
+  body {
+    font-family: 'Roboto+Slab', 'Georgia', 'Times New Roman';
+  }
+  .main-div {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    background-color: transparent;
+    border-bottom: 5px solid rgba(250, 10, 10, .2);
+    padding-bottom: -10px;
+  }
+  .div-1 {
+    display: flex;
+    width: 40%;
+    justify-content: space-between;
+  }
+  .div-1 a {
+    text-decoration: none;
+    color: crimson;
+  }
+  .div-1 a:hover {
+    text-decoration: underline red;
+  }
+
+</style>
 </head>
 <body>
-  
-<h1>This will be my title.</h1>
-  <p>Some paragraph stuff</p>
-  <p>Some paragraph stuff</p>
-  <p>Some paragraph stuff</p>
-  <p>Some paragraph stuff</p>
+<div class="main-div">
+
+    <div class="div-0">
+      <h1>Lets-Travel</h1>
+    </div>
+
+    <div class="div-1">
+      <a href="#">Upcoming events</a>
+      <a href="#">Sightseeing</a>      
+      <a href="#">Contact</a>
+    </div>
+</div>
+
 </body>
 </html>
