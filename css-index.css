@@ -14,7 +14,6 @@ body {
   border-bottom: 1px solid white;
 }
 
-
 ul, li {
   display: inline;
 }
@@ -39,6 +38,10 @@ background-color: #566573;
 }
 
 .photo-div {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
   width: 100%;
   height: 500px;
   background-image: url('b-g.jpg');
@@ -46,4 +49,38 @@ background-color: #566573;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+} 
+#spn-1{
+  color: black;
+  font-size: 70px;
+  font-weight: bold;
+  font-family: 'Roboto slab';
+}
+
+#spn-2{
+  color: #232322;
+  font-size: 70px;
+  font-weight: bold;
+  font-family: 'Roboto slab';
+}
+
+h1 ul {
+  padding: 0;
+  position: absolute;
+  top: 46px;
+  left: 0;
+  width: 200px;
+  display: none;
+}
+
+h1 ul li {
+  background: #34495E;
+  display: block;
+  color: #fff;
+}
+
+h1 ul li:hover {background: #566573;}
+
+h1:hover ul {
+  display: block;
 }
